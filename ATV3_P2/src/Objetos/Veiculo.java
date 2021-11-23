@@ -4,7 +4,7 @@ public abstract class Veiculo {
 	
 	private String cor;
 	private int passageiros;
-	private boolean ligado;
+	private boolean ligado=false;
 	
 	public String getCor() {
 		return cor;
